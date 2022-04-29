@@ -171,7 +171,7 @@ zinit load ellie/atuin
 We need to setup some hooks, so first install bash-preexec:
 
 ```
-curl https://raw.githubusercontent.com/rcaloras/bash-preexec/master/bash-preexec.sh -o ~/.bash-preexec.sh
+curl https://raw.githubusercontent.com/rcaloras/bash-preexec/d308800/bash-preexec.sh -o ~/.bash-preexec.sh
 echo '[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh' >> ~/.bashrc
 ```
 
